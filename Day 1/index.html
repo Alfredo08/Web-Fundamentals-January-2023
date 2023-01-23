@@ -87,19 +87,80 @@
                     <label for="firstName">
                         First name:
                     </label>
-                    <input type="text" name="firstName" id="firstName" >
+                    <input type="text" name="firstName" id="firstName" placeholder="Write your first name" >
                 </div>
                 <div>
                     <label for="lastName">
                         Last name:
                     </label>
-                    <input type="text" name="lastName" id="lastName" >
+                    <input type="text" name="lastName" id="lastName" value="Salazar">
                 </div>
                 <div>
                     <label for="password">
                         Password:
                     </label>
                     <input type="password" name="password" id="password" >
+                </div>
+                <div>
+                    <h3>
+                        Do you read books?
+                    </h3>
+                    <label for="yesBook">
+                        Yes
+                    </label>
+                    <input type="radio" name="doYouRead" id="yesBook" >
+                    <label for="noBook">
+                        No
+                    </label>
+                    <input type="radio" name="doYouRead" id="noBook" >
+                </div>
+                <div>
+                    <h3>
+                        What genres do you like?
+                    </h3>
+                    <label for="comedy">
+                        Comedy
+                    </label>
+                    <input type="checkbox" name="genres" id="comedy">
+                    <label for="adventure">
+                        Adventure
+                    </label>
+                    <input type="checkbox" name="genres" id="adventure">
+                    <label for="horror">
+                        Horror
+                    </label>
+                    <input type="checkbox" name="genres" id="horror">
+                </div>
+                <div>
+                    <label for="country">
+                        Country:
+                    </label>
+                    <select name="country" id="country">
+                        <option>
+                            Please select an option
+                        </option>
+                        <option>
+                            United States
+                        </option>
+                        <option>
+                            Canada
+                        </option>
+                        <option>
+                            Mexico
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comment">
+                        Leave us a comment:
+                    </label>
+                    <textarea name="comment" id="comment" placeholder="Example"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Register">
+                    <button type="submit">
+                        Register
+                    </button>
                 </div>
             </fieldset>
         </form>
