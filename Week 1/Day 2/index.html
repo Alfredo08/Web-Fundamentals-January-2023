@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="EN">
+    <head>
+        <title>
+            My first web page
+        </title>
+        <!-- Meta is a selfclosed element -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <nav>
+            <h1>
+                Welcome to HTML
+            </h1>
+            <h6>
+                This is an h6
+            </h6>
+        </nav>
+        <header>
+            <p>
+                The HTML and CSS chapters are designed to take you through the theoretical components of the web as well as the first step in creating a web application (building out the client-side). When building a web application we believe it is best to always start with a clickable prototype involving only HTML, CSS, and Javascript so it is only natural to teach these technologies first.
+            </p>
+        </header>
+        <main>
+            <a href="https://www.google.com/" target="_blank">
+                Take me to google
+            </a>
+            <a href="./assets/about.html">
+                Take me to about.html
+            </a>
+            <ul>
+                <li class="pet">
+                    Cats
+                </li>
+                <li class="pet">
+                    Dogs
+                </li>
+                <li class="pet">
+                    Hamster
+                </li>
+            </ul>
+            <ol>
+                <li class="pet">
+                    Cats
+                </li>
+                <li class="pet">
+                    Dogs
+                </li>
+                <li class="pet">
+                    Hamster
+                </li>
+            </ol>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            First name
+                        </th>
+                        <th>
+                            Last name
+                        </th>
+                        <th>
+                            Identifier
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Alex
+                        </td>
+                        <td>
+                            Miller
+                        </td>
+                        <td>
+                            12345
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Martha
+                        </td>
+                        <td>
+                            Smith
+                        </td>
+                        <td id="number">
+                            98765
+                        </td>
+                    </tr>
+                </tbody>
+                <!--
+                    <tfoot></tfoot>
+                -->
+            </table>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="firstName">
+                            First name:
+                        </label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Write your first name" >
+                    </div>
+                    <div>
+                        <label for="lastName">
+                            Last name:
+                        </label>
+                        <input type="text" name="lastName" id="lastName" value="Salazar">
+                    </div>
+                    <div>
+                        <label for="password">
+                            Password:
+                        </label>
+                        <input type="password" name="password" id="password" >
+                    </div>
+                    <div>
+                        <h3>
+                            Do you read books?
+                        </h3>
+                        <label for="yesBook">
+                            Yes
+                        </label>
+                        <input type="radio" name="doYouRead" id="yesBook" >
+                        <label for="noBook">
+                            No
+                        </label>
+                        <input type="radio" name="doYouRead" id="noBook" >
+                    </div>
+                    <div>
+                        <h3>
+                            What genres do you like?
+                        </h3>
+                        <label for="comedy">
+                            Comedy
+                        </label>
+                        <input type="checkbox" name="genres" id="comedy">
+                        <label for="adventure">
+                            Adventure
+                        </label>
+                        <input type="checkbox" name="genres" id="adventure">
+                        <label for="horror">
+                            Horror
+                        </label>
+                        <input type="checkbox" name="genres" id="horror">
+                    </div>
+                    <div>
+                        <label for="country">
+                            Country:
+                        </label>
+                        <select name="country" id="country">
+                            <option>
+                                Please select an option
+                            </option>
+                            <option>
+                                United States
+                            </option>
+                            <option>
+                                Canada
+                            </option>
+                            <option>
+                                Mexico
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comment">
+                            Leave us a comment:
+                        </label>
+                        <textarea name="comment" id="comment" placeholder="Example"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Register">
+                        <button type="submit">
+                            Register
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <section>
+            <img id="catImage" src="./images/cat.JPG" alt="This is a picture of a cat.">
+        </section>
+        <footer>
+            Footer goes here. All rights reserved.
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#number{
+    color: green;
+}
+
+.pet{
+    color: #1E9AE1;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    /* padding: 10px 20px;  Applies 10px to top and bottom, 20px to left and right
+    /* padding: 10px 15px 20px 25px;  Applies the padding clockwise */
+    /*
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    */
+    margin-bottom: 5px;
+    /* border-style: solid;
+       border-color: black;
+       */
+    
+}
+
+div{
+    background-color: orange;
+}
+
+#catImage{
+    width: 300px;
+}
+
+th, td{
+   border: 1px solid black;
+   padding: 10px; 
+   margin: 0;
+}
+
+h1{
+    border: 4px dotted black;
+}
+/*
+    id > class > element
+*/
