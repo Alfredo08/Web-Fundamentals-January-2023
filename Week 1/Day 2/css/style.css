@@ -43,6 +43,29 @@ th, td{
 h1{
     border: 4px dotted black;
 }
+
+ul > .pet{
+    background-color: green;
+}
+
+main .pet{
+    color: blue;
+}
+
+input[type="text"]{
+    width: 400px;
+}
+
+ol > li {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    height: 500px;
+}
+
+a{
+    display: block;
+}
 /*
     id > class > element
 */
