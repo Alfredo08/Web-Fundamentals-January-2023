@@ -15,7 +15,7 @@ function selectThumbnail( element ){
 function addTitleToResultDiv( titleElement ){
     var titleText = titleElement.innerText;
     var resultDiv = document.querySelector( "#result" );
-    //resultDiv.innerHTML += "<p>" + titleText + "</p>";
+    //resultDiv.innerHTML += "<p class='message'>" + titleText + "</p>";
     resultDiv.innerHTML += `<p class="message"> ${titleText} </p>`;
 }
 
