@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> API and AJAX </title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <form onsubmit="getDogImages(event)">
+            <label for="numberOfImages"> How many images do you want to get: </label>
+            <input id="numberOfImages" name="numberOfImages" type="text" >
+            <button type="submit">
+                Get the images!
+            </button>
+        </form>
+        <div class="results"></div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
